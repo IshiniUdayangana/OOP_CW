@@ -1,0 +1,50 @@
+[
+  {
+    "totalTickets": 6,
+    "ticketReleaseRate": 2,
+    "customerRetrievalRate": 1,
+    "maxTicketCapacity": 3
+  },
+  {
+    "totalTickets": 2,
+    "ticketReleaseRate": 3,
+    "customerRetrievalRate": 2,
+    "maxTicketCapacity": 3
+  },
+  {
+    "totalTickets": 3,
+    "ticketReleaseRate": 2,
+    "customerRetrievalRate": 3,
+    "maxTicketCapacity": 6
+  },
+  {
+    "totalTickets": 3,
+    "ticketReleaseRate": 2,
+    "customerRetrievalRate": 3,
+    "maxTicketCapacity": 2
+  },
+  {
+    "totalTickets": 2,
+    "ticketReleaseRate": 3,
+    "customerRetrievalRate": 3,
+    "maxTicketCapacity": 3
+  },
+  {
+    "totalTickets": 2,
+    "ticketReleaseRate": 3,
+    "customerRetrievalRate": 3,
+    "maxTicketCapacity": 2
+  },
+  {
+    "totalTickets": 2,
+    "ticketReleaseRate": 3,
+    "customerRetrievalRate": 2,
+    "maxTicketCapacity": 3
+  },
+  {
+    "totalTickets": 3,
+    "ticketReleaseRate": 3,
+    "customerRetrievalRate": 3,
+    "maxTicketCapacity": 3
+  }
+]

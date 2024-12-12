@@ -1,0 +1,72 @@
+2024-12-12T11:37:58.254725800: Starting system configuration....
+2024-12-12T11:38:05.882140500: System configuration successfully completed...
+2024-12-12T11:38:12.026430800: Starting the system...
+2024-12-12T11:38:12.033429400: Vendor-2 released: Vendor-2-Ticket-1733983692028
+2024-12-12T11:38:12.033429400: Vendor-3 released: Vendor-3-Ticket-1733983692028
+2024-12-12T11:38:12.033429400: Vendor-1 released: Vendor-1-Ticket-1733983692028
+2024-12-12T11:38:12.035429200: Customer-2 purchased: Vendor-3-Ticket-1733983692028
+2024-12-12T11:38:12.035429200: Customer-1 purchased: Vendor-2-Ticket-1733983692028
+2024-12-12T11:38:12.035429200: Vendor-5 released: Vendor-5-Ticket-1733983692034
+2024-12-12T11:38:12.035429200: Vendor-4 released: Vendor-4-Ticket-1733983692034
+2024-12-12T11:38:12.535923200: Vendor-6 released: Vendor-6-Ticket-1733983692034
+2024-12-12T11:38:12.535923200: Vendor-7 released: Vendor-7-Ticket-1733983692034
+2024-12-12T11:38:12.535923200: Customer-2 purchased: Vendor-4-Ticket-1733983692034
+2024-12-12T11:38:12.535923200: Customer-1 purchased: Vendor-1-Ticket-1733983692028
+2024-12-12T11:38:13.036805700: Vendor-8 released: Vendor-8-Ticket-1733983692034
+2024-12-12T11:38:13.036805700: Customer-1 purchased: Vendor-6-Ticket-1733983692034
+2024-12-12T11:38:13.036805700: Vendor-9 released: Vendor-9-Ticket-1733983692034
+2024-12-12T11:38:13.036805700: Customer-2 purchased: Vendor-5-Ticket-1733983692034
+2024-12-12T11:38:13.538723500: Customer-1 purchased: Vendor-7-Ticket-1733983692034
+2024-12-12T11:38:13.538723500: Vendor-10 released: Vendor-10-Ticket-1733983692034
+2024-12-12T11:38:13.539587: Vendor-3 released: Vendor-3-Ticket-1733983692368
+2024-12-12T11:38:13.539587: Customer-2 purchased: Vendor-8-Ticket-1733983692034
+2024-12-12T11:38:14.040698900: Customer-2 purchased: Vendor-9-Ticket-1733983692034
+2024-12-12T11:38:14.040698900: Vendor-1 released: Vendor-1-Ticket-1733983692368
+2024-12-12T11:38:14.042795600: Vendor-2 released: Vendor-2-Ticket-1733983692368
+2024-12-12T11:38:14.042795600: Customer-1 purchased: Vendor-10-Ticket-1733983692034
+2024-12-12T11:38:14.544791400: Customer-1 purchased: Vendor-3-Ticket-1733983692368
+2024-12-12T11:38:14.544791400: Vendor-4 released: Vendor-4-Ticket-1733983692368
+2024-12-12T11:38:14.555079800: Vendor-5 released: Vendor-5-Ticket-1733983692369
+2024-12-12T11:38:14.555958600: Customer-2 purchased: Vendor-1-Ticket-1733983692368
+2024-12-12T11:38:15.049481600: Customer-1 purchased: Vendor-2-Ticket-1733983692368
+2024-12-12T11:38:15.049481600: Vendor-6 released: Vendor-6-Ticket-1733983692870
+2024-12-12T11:38:15.057832500: Customer-2 purchased: Vendor-4-Ticket-1733983692368
+2024-12-12T11:38:15.057832500: Vendor-7 released: Vendor-7-Ticket-1733983692870
+2024-12-12T11:38:15.557941400: Vendor-8 released: Vendor-8-Ticket-1733983693370
+2024-12-12T11:38:15.557941400: Customer-1 purchased: Vendor-5-Ticket-1733983692369
+2024-12-12T11:38:15.559299600: Customer-2 purchased: Vendor-6-Ticket-1733983692870
+2024-12-12T11:38:15.559299600: Vendor-9 released: Vendor-9-Ticket-1733983693372
+2024-12-12T11:38:16.060237100: Customer-2 purchased: Vendor-7-Ticket-1733983692870
+2024-12-12T11:38:16.060237100: Vendor-10 released: Vendor-10-Ticket-1733983693873
+2024-12-12T11:38:16.063088900: Customer-1 purchased: Vendor-8-Ticket-1733983693370
+2024-12-12T11:38:16.561205300: Customer-2 purchased: Vendor-9-Ticket-1733983693372
+2024-12-12T11:38:16.566248100: Customer-1 purchased: Vendor-10-Ticket-1733983693873
+2024-12-12T11:38:16.609931300: Customer interrupted while purchasing the tickets
+2024-12-12T11:38:16.609931300: Customer interrupted while purchasing the tickets
+2024-12-12T11:39:24.588150800: Starting system configuration....
+2024-12-12T11:39:32.654127400: System configuration successfully completed...
+2024-12-12T11:40:26.535157: Starting system configuration....
+2024-12-12T11:40:33.046850200: System configuration successfully completed...
+2024-12-12T11:40:48.155733700: Starting system configuration....
+2024-12-12T11:40:51.431797: System configuration successfully completed...
+2024-12-12T11:42:23.975788900: Starting system configuration....
+2024-12-12T11:42:27.818820: System configuration successfully completed...
+2024-12-12T11:43:10.537028200: Starting system configuration....
+2024-12-12T11:43:14.061517: System configuration successfully completed...
+2024-12-12T11:44:16.534424400: Starting system configuration....
+2024-12-12T11:44:21.419793: System configuration successfully completed...
+2024-12-12T11:44:30.210801600: Starting the system...
+2024-12-12T11:44:30.220160300: Customer-1 purchased: Vendor-1-Ticket-1733984070216
+2024-12-12T11:44:30.220160300: Vendor-1 released: Vendor-1-Ticket-1733984070216
+2024-12-12T11:44:30.221160100: Customer-2 purchased: Vendor-2-Ticket-1733984070216
+2024-12-12T11:44:30.220160300: Vendor-2 released: Vendor-2-Ticket-1733984070216
+2024-12-12T11:44:30.557052100: Customer-2 purchased: Vendor-1-Ticket-1733984070556
+2024-12-12T11:44:30.556173400: Vendor-1 released: Vendor-1-Ticket-1733984070556
+2024-12-12T11:44:30.557052100: Vendor-2 released: Vendor-2-Ticket-1733984070556
+2024-12-12T11:44:30.557052100: Customer-1 purchased: Vendor-2-Ticket-1733984070556
+2024-12-12T11:44:30.891586300: Vendor-2 released: Vendor-2-Ticket-1733984070891
+2024-12-12T11:44:30.891586300: Customer-1 purchased: Vendor-2-Ticket-1733984070891
+2024-12-12T11:44:30.892509: Customer-2 purchased: Vendor-1-Ticket-1733984070892
+2024-12-12T11:44:30.892509: Vendor-1 released: Vendor-1-Ticket-1733984070892
+2024-12-12T11:44:31.228437900: Tickets are sold out for this event
+2024-12-12T11:44:31.228437900: Tickets are sold out for this event

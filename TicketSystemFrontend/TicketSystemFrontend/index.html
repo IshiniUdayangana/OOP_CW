@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1 class="heading-main">Welcome to the Ticket Booking System</h1>
+    
+    <div class="whole-container">
+        <div class="container-sm custom-container" style="max-width: 700px;">
+            <h2 class="heading">Let's configure the system</h2>
+
+            <form onsubmit="displayConfiguration(event)">
+                <div class="mb-3">
+                  <label for="vendorNum" class="form-label">Enter the number of vendors</label>
+                  <input type="number" class="form-control" id="vendorNum" required>
+                  <div class="invalid-feedback">
+                    Please enter a number
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="totalTickets" class="form-label">Enter the total number of tickets per vendor</label>
+                  <input type="number" class="form-control" id="totalTickets" required>
+                  <div class="invalid-feedback">
+                    Please enter a number
+                  </div>
+                </div>
+                <div class="mb-3">
+                    <label for="ticketReleaseRate" class="form-label">Enter the ticket release rate</label>
+                    <input type="number" class="form-control" id="ticketReleaseRate" required>
+                    <div class="invalid-feedback">
+                        Please enter a number
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="customerRetrievalRate" class="form-label">Enter the customer retrieval rate</label>
+                    <input type="number" class="form-control" id="customerRetrievalRate" required>
+                    <div class="invalid-feedback">
+                        Please enter a number
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="maxTicketCapacity" class="form-label">Enter the maximum capacity of the ticket pool</label>
+                    <input type="number" class="form-control" id="maxTicketCapacity" required>
+                    <div class="invalid-feedback">
+                        Please enter a number
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button type="submit" class="btn btn-dark submit-btn">Submit</button>
+                    <button type="button" class="btn btn-success">Start System</button>
+                    <button type="button" class="btn btn-primary">Check status</button>
+                    <button type="button" class="btn btn-secondary">Stop system</button>
+                    <button type="button" class="btn btn-danger">Exit</button>
+                </div>
+            </form>
+
+            <div id="configDisplay" class="mt-4" style="max-width: 700px;">
+                <!-- This section will be dynamically populated with the configuration details after the user submits the form -->
+            </div>
+
+            
+        </div>
+        
+    </div>
+
+    <script>
+        function displayConfiguration(event) {
+            event.preventDefault(); // Prevent the form from submitting and refreshing the page
+
+            // Get values from the input fields
+            const vendorNum = document.getElementById('vendorNum').value;
+            const totalTickets = document.getElementById('totalTickets').value;
+            const ticketReleaseRate = document.getElementById('ticketReleaseRate').value;
+            const customerRetrievalRate = document.getElementById('customerRetrievalRate').value;
+            const maxTicketCapacity = document.getElementById('maxTicketCapacity').value;
+
+            // Display the configuration details below the form
+            const configurationDetails = `
+                <h2>Configuration Details:</h2>
+                <ul>
+                    <li><strong>Number of Vendors:</strong> ${vendorNum}</li>
+                    <li><strong>Total Tickets per Vendor:</strong> ${totalTickets}</li>
+                    <li><strong>Ticket Release Rate:</strong> ${ticketReleaseRate}</li>
+                    <li><strong>Customer Retrieval Rate:</strong> ${customerRetrievalRate}</li>
+                    <li><strong>Max Ticket Capacity:</strong> ${maxTicketCapacity}</li>
+                </ul>
+            `;
+
+            // Insert the configuration details into the display section
+            document.getElementById('configDisplay').innerHTML = configurationDetails;
+
+            document.getElementById('configDisplay').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    </script>
+</body>
+</html>

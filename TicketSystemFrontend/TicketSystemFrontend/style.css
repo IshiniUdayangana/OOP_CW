@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    text-align: center;
+    padding: 20px 30px 0px 30px;
+    font-size: 15px;
+}
+
+.heading-main{
+    font-weight: 200;
+    font-size: 38px;
+}
+
+.heading{
+    font-weight: 200;
+    font-size: 25px;
+}
+
+h2{
+    text-align: center;
+    font-size: 12px;
+}
+
+.h2-main{
+    padding-bottom: 20px;
+}
+
+.container-sm{
+    border: 5px solid rgb(230, 227, 227);
+    padding: 30px 40px 30px 40px;
+}
+
+.custom-container{
+    height: 770px;
+}
+
+.btn{
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mb-3 label{
+    font-size: 20px;
+}
+
+.mt-4{
+    border: 5px solid rgb(230, 227, 227);
+    padding: 30px 40px 30px 40px;
+    height: 500px;
+    font-weight: 200;
+    font-size: 25px;
+    line-height: 80px;
+}
